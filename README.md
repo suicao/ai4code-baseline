@@ -14,7 +14,7 @@ Your outputs will be in the ```./data``` folder:
 project
 │   train_mark.csv
 │   train_fts.json   
-|	train.csv
+|   train.csv
 │   val_mark.csv
 │   val_fts.json
 │   val.csv
