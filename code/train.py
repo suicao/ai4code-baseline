@@ -28,7 +28,7 @@ parser.add_argument('--n_workers', type=int, default=8)
 
 args = parser.parse_args()
 os.mkdir("./outputs")
-data_dir = Path('../../ai4code/input/')
+data_dir = Path('..//input/')
 
 train_df_mark = pd.read_csv(args.train_mark_path).drop("parent_id", axis=1).dropna().reset_index(drop=True)
 train_fts = json.load(open(args.train_features_path))
