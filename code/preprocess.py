@@ -6,7 +6,7 @@ from scipy import sparse
 from tqdm import tqdm
 import os
 
-data_dir = Path('../../ai4code/input/')
+data_dir = Path('..//input/')
 if not os.path.exists("./data"):
     os.mkdir("./data")
 
