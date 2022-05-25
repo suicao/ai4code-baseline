@@ -8,7 +8,9 @@ Ez pz.
 
 ### Preprocessing
 To extract features for training, including the markdown-only dataframes and sampling the code cells needed for each note book, simply run:
+
 ```$ python preprocess.py```
+
 Your outputs will be in the ```./data``` folder:
 ```
 project
@@ -22,7 +24,9 @@ project
 
 ###  Training
 I found ```codebert-base``` to be the best of all the transformers:
-```$ python `train.py --md_max_len 64 --total_max_len 512 --batch_size 8 --accumulation_steps 4 --epochs 5 --n_workers 8```
+
+```$ python train.py --md_max_len 64 --total_max_len 512 --batch_size 8 --accumulation_steps 4 --epochs 5 --n_workers 8```
+
 The validation scores should read 0.84+ after 3 epochs, and also correlates well with the public LB.
 
 ### Inference
