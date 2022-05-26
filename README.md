@@ -30,4 +30,4 @@ I found ```codebert-base``` to be the best of all the transformers:
 The validation scores should read 0.84+ after 3 epochs, and also correlates well with the public LB.
 
 ### Inference
-Please refer to my public notebook: 
+Please refer to my public notebook: https://www.kaggle.com/code/suicaokhoailang/stronger-baseline-with-code-cells
